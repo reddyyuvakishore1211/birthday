@@ -1,0 +1,73 @@
+/*...Header...*/
+body
+{
+	margin:0px;
+}
+header,footer
+{
+	background:linear-gradient(45deg,orange,blue,green);
+	padding:25px;
+	box-shadow:0 0 10px blue;
+}
+header h1
+{
+	font-size:45px;
+	margin:0px;
+	text-align:center;
+	color:white;
+	text-shadow:0 0 10px white;
+}
+
+/*......Landing Page.........*/
+
+#landing-page
+{
+	background-image:url('../images/a2.jpg');
+	background-size:cover;
+	height:800px;
+	background-position:0px -250px;
+	/*margin:-12px;*/
+}
+
+#landing-page .wrapper
+{
+	background-color:rgba(0,0,0,0.5);
+	height:100%;
+	text-align:center;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+
+}
+
+.Quote h1
+{
+	margin:0px;
+	font-size:60px;
+	margin-top:250px;
+	text-shadow:0 0 10px red;
+}
+
+.Quote p
+{
+	font-size:30px;
+	font-weight:bold;
+	color:cyan;
+	text-shadow:0 0 10px cyan;
+}
+
+video
+{
+	width:600px;
+	height:300px;
+	position:relative;
+	top:10px;
+}
+
+footer
+{
+	padding:20px;
+	text-align:center;
+	color:white;
+}
